@@ -1,0 +1,28 @@
+.cart {
+    background: #2B2929;
+    padding: 30px 200px 30px 30px;
+  }
+  
+  .cart__flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cart__center {
+    margin: auto 0;
+    font-size: 24px;
+  }
+  
+  .cart__quantity {
+    margin: 0 10px;
+    font-size: 32px;
+  }
+  
+  .cart__img {
+    display: flex;
+  }
+  
+  .cart__btn {
+    margin-right: 30px;
+  }
+  

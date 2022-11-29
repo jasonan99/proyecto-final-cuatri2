@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .block__content--ds {
+    border: 1px dashed #9747FF;
+    width: 1218px;
+    height: 536px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .block__div--ds {
+    width: 496px;
+    height: 496px;
+  }
+  
+  .block__div--ds h1 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 65px;
+    margin-left: 5px;
+    color: black;
+  }
+  
+  .block__div--ds p {
+    width: 460px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 7.5px;
+    margin-top: 44px;
+    color: black;
+  }
+  
+  .block__div--ds a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    position: relative;
+    top: 15px;
+    left: 57px;
+  }
+  
+  .block__anchor--ds {
+    width: 215px;
+    height: 60px;
+    background-color: black;
+    border-radius: 30px;
+    margin-left: 5px;
+    margin-top: 49.5px;
+  }
+  
+  .block_img--ds {
+    width: 696px;
+    height: 481px;
+  }
+
+  .block__content--reverse--ds {
+    margin-top: 148px;
+    border: 1px dashed #9747FF;
+    width: 1218px;
+    height: 536px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse
+  }
+  
+  .block__div--reverse--ds {
+    width: 496px;
+    height: 496px;
+  }
+  
+  .block__div--reverse--ds h1 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 65px;
+    margin-left: 10px;
+    color: black;
+  }
+  
+  .block__div--reverse--ds p {
+    width: 460px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 15px;
+    margin-top: 44px;
+    color: black;
+  }
+  
+  .block__div--reverse--ds a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    position: relative;
+    top: 15px;
+    left: 57px;
+  }

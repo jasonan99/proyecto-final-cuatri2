@@ -1,0 +1,25 @@
+body {
+  font-family: "Rubik";
+  margin: 0 auto;
+  color: #F2EFEB;
+}
+a {
+  text-decoration: none;
+  color: #F2EFEB;
+}
+  
+button {
+  background: none;
+  border: none;
+  color: #F2EFEB;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+@use './partials/categories';
+@use './partials/card';
+@use './partials/footer';
+@use './partials/slideshow';
+@use './partials/services-block-ds';
+@use './partials/cart';
+@use './partials/header';

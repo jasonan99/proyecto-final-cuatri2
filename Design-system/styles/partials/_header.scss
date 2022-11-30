@@ -1,6 +1,7 @@
+@use './colors';
 
 .header {
-  background: #2B2929;
+  background: colors.$black;
   padding: 30px 100px;
   margin-bottom: 100px;
 }
@@ -38,16 +39,16 @@
 }
 
 .header__btn--log {
-  background: #F2EFEB;
+  background: colors.$white;
   border-radius: 10px;
-  color: #2B2929;
+  color: colors.$black;
   font-size: 24px;
   align-items: center;
   padding: 10px;
 }
 
 .header__btn--sign {
-  background: #2B2929;
+  background: colors.$black;
   border-radius: 10px;
   font-size: 24px;
   align-items: center;

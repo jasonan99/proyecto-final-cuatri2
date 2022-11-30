@@ -1,6 +1,7 @@
+@use './colors';
 
 .cart {
-  background: #2B2929;
+  background: colors.$black;
   padding: 30px 200px 30px 30px;
 }
 

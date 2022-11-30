@@ -1,3 +1,4 @@
+@use './colors';
 
 .footer {
   margin: 0 auto;
@@ -8,7 +9,7 @@
   height: 435px;
   margin-top: 80px;
   width: 100%;
-  background-color: #2B2929;
+  background-color: colors.$black;
 }
 
 .footer__nav--logo {
@@ -35,7 +36,7 @@
   width: 100%;
   padding: 20px 8px;
   border-radius: 10px;
-  border: 5px solid #2B2929;
+  border: 5px solid colors.$black;
 }
 
 .footer__nav__social {

@@ -14,29 +14,29 @@
 body {
   font-family: "Rubik";
   margin: 0 auto;
-  color: #F2EFEB;
+  color: colors.$white;
 }
 
-h2 {
-  color: #2B2929;
+h1, h2 {
+  color: colors.$black;
 }
 
 a {
   text-decoration: none;
-  color: #F2EFEB;
+  color: colors.$white;
 }
   
 button {
   background: none;
   border: none;
-  color: #F2EFEB;
+  color: colors.$white;
   font-size: 24px;
   cursor: pointer;
 }
 
 footer {
   width: 100%;
-  background-color: #2B2929;
+  background-color: colors.$black;
 }
 
 .visually-hidden {

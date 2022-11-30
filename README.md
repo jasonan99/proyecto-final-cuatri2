@@ -1,1 +1,1 @@
-# proyecto_final-cuatri2
+Integrantes: Camila Fallas, Ian Lara y Jason Aguilar.

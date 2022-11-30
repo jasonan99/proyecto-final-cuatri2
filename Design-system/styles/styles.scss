@@ -1,8 +1,26 @@
+@use './partials/categories';
+@use './partials/card';
+@use './partials/footer';
+@use './partials/slideshow';
+@use './partials/services-block-ds';
+@use './partials/cart';
+@use './partials/header';
+@use './partials/colors';
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Rubik";
   margin: 0 auto;
   color: #F2EFEB;
 }
+
+h2 {
+  color: #2B2929;
+}
+
 a {
   text-decoration: none;
   color: #F2EFEB;
@@ -16,10 +34,17 @@ button {
   cursor: pointer;
 }
 
-@use './partials/categories';
-@use './partials/card';
-@use './partials/footer';
-@use './partials/slideshow';
-@use './partials/services-block-ds';
-@use './partials/cart';
-@use './partials/header';
+footer {
+  width: 100%;
+  background-color: #2B2929;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}

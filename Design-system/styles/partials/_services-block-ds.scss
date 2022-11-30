@@ -6,11 +6,13 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  padding-left: 130px;
 }
 
 .block__div--ds {
   width: 496px;
   height: 496px;
+  margin-right: 50px;
 }
 
 .block__div--ds h3 {
@@ -19,7 +21,6 @@
   font-weight: 400;
   font-size: 55px;
   line-height: 65px;
-  margin-left: 5px;
   color: black;
 }
 
@@ -30,7 +31,6 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
-  margin-left: 7.5px;
   margin-top: 44px;
   color: black;
 }
@@ -45,7 +45,6 @@
   line-height: 26px;
   position: relative;
   top: 15px;
-  left: 57px;
 }
 
 .block__anchor--ds {
@@ -53,8 +52,14 @@
   height: 60px;
   background-color: black;
   border-radius: 30px;
-  margin-left: 5px;
   margin-top: 49.5px;
+  padding: 15px 50px;
+}
+
+.block__anchor--ds:hover {
+  border: solid 2px colors.$black;
+  color: colors.$black;
+  background-color: #fff;
 }
 
 .block_img--ds {
@@ -69,12 +74,15 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  flex-direction: row-reverse
+  flex-direction: row-reverse;
+  margin-bottom: 100px;
+  padding-left: 130px;
 }
 
 .block__div--reverse--ds {
   width: 496px;
   height: 496px;
+  margin-left: 50px;
 }
 
 .block__div--reverse--ds h3 {
@@ -83,7 +91,6 @@
   font-weight: 400;
   font-size: 55px;
   line-height: 65px;
-  margin-left: 10px;
   color: black;
 }
 
@@ -94,7 +101,6 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
-  margin-left: 15px;
   margin-top: 44px;
   color: black;
 }
@@ -109,5 +115,4 @@
   line-height: 26px;
   position: relative;
   top: 15px;
-  left: 57px;
 }

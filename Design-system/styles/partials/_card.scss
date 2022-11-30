@@ -1,10 +1,20 @@
 @use './colors';
 
+ul {
+  padding-left: 0;
+}
+
+.card__title {
+  margin-top: 100px;
+}
+
 .card__container {
   width: 70%;
   display: flex;
   list-style: none;
   margin: 0;
+  margin-bottom: 100px;
+  padding-left: 130px;
 }
 
 .card {
@@ -18,6 +28,10 @@
   position: relative;
   overflow-x: hidden;
   overflow-y: hidden;
+}
+
+.card:hover {
+  background-color: #ebebeb;
 }
 
 .card__wrapper {
@@ -41,10 +55,17 @@
 
 }
 
+.card__info__title {
+  padding-left: 0;
+  color: colors.$black;
+  font-size: 24px; 
+  margin-top: 40px;
+}
+
 .card__info__category {
   margin: 0;
   font-size: 22px;
-  color: black;
+  color: colors.$black;
 }
 
 .card__info__price {
@@ -59,7 +80,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: black;
+  color: colors.$black;
   cursor: pointer;
 }
 
@@ -83,13 +104,12 @@
   margin-left: 5px;
   border-radius: 3px;
   z-index: 3;
-  background-color: #e5e5e5;
   height: 17px;
   width: 20px;
 }
 
 .card__cta--arrow::after {
-  content: url("data:image/svg+xml;charset=utf-8,%3Csvg width='13' height='12' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M12.53 6.53a.75.75 0 0 0 0-1.06L7.757.697a.75.75 0 1 0-1.06 1.06L10.939 6l-4.242 4.243a.75.75 0 0 0 1.06 1.06L12.53 6.53ZM0 6.75h12v-1.5H0v1.5Z' fill='%23171717'/%3E%3C/svg%3E");
+  content: url("../images/icons/arrow.png");
   position: absolute;
   left: 4px;
   bottom: -2px;

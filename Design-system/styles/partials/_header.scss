@@ -2,8 +2,12 @@
 
 .header {
   background: colors.$black;
-  padding: 30px 100px;
+  padding: 30px 130px;
   margin-bottom: 100px;
+}
+
+.header__nav--hover:hover {
+  border-bottom: solid 3px #93151C;
 }
 
 .header__flex {
@@ -34,7 +38,7 @@
 
 .header__nav {
   width: 40%;
-  font-size: 24px;
+  font-size: 22px;
   margin-top: 15px;
 }
 
@@ -42,17 +46,27 @@
   background: colors.$white;
   border-radius: 10px;
   color: colors.$black;
-  font-size: 24px;
+  font-size: 22px;
   align-items: center;
   padding: 10px;
+}
+
+.header__btn--log:hover {
+  box-shadow: -1px 6px 10px 0 #777777;
 }
 
 .header__btn--sign {
   background: colors.$black;
   border-radius: 10px;
-  font-size: 24px;
+  font-size: 22px;
   align-items: center;
   padding: 10px;
   border: solid 1px #F2EFEB;
   margin-left: 15px;
+}
+
+.header__btn--sign:hover {
+  box-shadow: -1px 6px 10px 0 #777777;
+
+
 }

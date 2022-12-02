@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Rubik:wght@400;600&display=swap" rel="stylesheet">
+  <title>Categories</title>
+</head>
+<body>
+  <header>
+    <div class="header">
+      <div class="header__flex">
+        <img class="header__logo" src="./images/logo.png" alt="">
+        <div class="header__search">
+          <input class="header__search--bar" type="text">
+          <div class="header__search--img"></div>
+        </div>
+      </div>
+      <div class="header__flex">
+        <nav class="header__flex header__nav">
+          <div class="header__nav--hover"><a href="#">HOME</a></div>
+          <div class="header__nav--hover"><a href="#">SERVICES</a></div>
+          <div class="header__nav--hover"><a href="#">CATEGORIES</a></div>
+          <div class="header__nav--hover"><a href="#">BLOG</a></div>
+        </nav>
+        <div class="header__flex">
+          <a class="header__btn--log" href="#">LOG IN</a>
+          <a class="header__btn--sign" href="#">SIGN UP</a>
+        </div> 
+      </div> 
+    </div>
+  </header>
+  <main>
+    <div class="categories__container">
+      <div class="sidebar">
+        <h2>Filters</h2>
+        <ul class="sidebar__categories">
+          <li>
+            <input type="text" placeholder="Search Vinyls Here" name="search">
+          </li>
+          <li> <a href="#"></a>Genres</li>
+          <li> <a href="#"></a>Artist</li>
+          <li> <a href="#"></a>Decade</li>
+        </ul>
+      </div>
+      <ul class="card__container">
+        <li class="card">
+          <div class="card__wrapper">
+            <img class="card__img" src="../images/borntodie-lanadelrey__categories.png" alt="">
+            <div class="card__info">
+              <p class="card__info__category">Born To Die<br>Lana Del Rey</p>
+              <p class="card__info__price">$9.99</p>
+            </div>
+            <a class="card__cta" href="#">See vinyl<div class="card__cta--arrow"></div></a>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card__wrapper">
+            <img class="card__img" src="../images/ivthe1975__categories.png" alt="">
+            <div class="card__info">
+              <p class="card__info__category">lV<br>The 1975</p>
+              <p class="card__info__price">$9.99</p>
+            </div>
+            <a class="card__cta" href="#">See vinyl<div class="card__cta--arrow"></div></a>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card__wrapper">
+            <img class="card__img" src="../images/currents-tameimpala__categories.png" alt="">
+            <div class="card__info">
+              <p class="card__info__category">Currents<br>Tame Impala</p>
+              <p class="card__info__price">$9.99</p>
+            </div>
+            <a class="card__cta" href="#">See vinyl<div class="card__cta--arrow"></div></a>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card__wrapper">
+            <img class="card__img" src="../images/ten-pearljam__categories.png" alt="">
+            <div class="card__info">
+              <p class="card__info__category">Ten<br>Pearl Jam</p>
+              <p class="card__info__price">$9.99</p>
+            </div>
+            <a class="card__cta" href="#">See vinyl<div class="card__cta--arrow"></div></a>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card__wrapper">
+            <img class="card__img" src="../images/metallica-metallica__categories.png" alt="">
+            <div class="card__info">
+              <p class="card__info__category">Metallica<br>Metallica</p>
+              <p class="card__info__price">$9.99</p>
+            </div>
+            <a class="card__cta" href="#">See vinyl<div class="card__cta--arrow"></div></a>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card__wrapper">
+            <img class="card__img" src="../images/thevisitors-abba__categories.png" alt="">
+            <div class="card__info">
+              <p class="card__info__category">The Visitors<br>ABBA</p>
+              <p class="card__info__price">$9.99</p>
+            </div>
+            <a class="card__cta" href="#">See vinyl<div class="card__cta--arrow"></div></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </main>
+  <footer>
+    <!-- //////////NAVEGACION DEL FOOTER /////// -->
+    <div class="footer">
+      <div class="footer__logo">
+        <img src="./images/logo.png" alt="">
+      </div>
+      <div class="footer__nav">
+        <ul class="footer__nav__social">
+          <li class="footer__nav__social--facebook">
+            <a href="#"><span class="visually-hidden">Facebook</span></a>
+          </li>
+          <li class="footer__nav__social--instagram">
+            <a href="#"><span class="visually-hidden">Vimeo</span></a>
+          </li>
+          <li class="footer__nav__social--youtube">
+            <a href="#"><span class="visually-hidden">Instagram</span></a>
+          </li>
+          <li class="footer__nav__social--twitter">
+            <a href="#"><span class="visually-hidden">Twitter</span></a>
+          </li>
+        </ul>
+      </div>
+    <!-- /////////////SECCION DE FORM ///////////-->
+      <div class="form">
+        <form class="form__newsletter">
+            <div class="form__newsletter--description">
+              <p>NEWSLETTER <br> SUBSCRIBE</p>
+              <label class="visually-hidden enter-email" for="email">Enter your email</label>
+              <input type="email" id="email-newsletter" name="email" placeholder="Enter your email"/>
+              <!-- <input class="buttons" type="submit" value="Go"/> -->
+            </div>
+            </div>
+        </form>
+      </div>
+      <div class="footer__rights">
+        <p>© Back to the future vinyl</p>
+        <p>All right reserved</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

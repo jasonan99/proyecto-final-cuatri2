@@ -363,6 +363,10 @@ ul {
 .cart__center {
   margin: auto 0;
   font-size: 24px;
+  color: #F2EFEB;
+}
+.cart__center p {
+  color: #F2EFEB;
 }
 
 .cart__price {

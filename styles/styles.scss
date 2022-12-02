@@ -11,9 +11,14 @@
   box-sizing: border-box;
 }
 
+p {
+  color: black;
+}
+
 body {
   font-family: "Rubik";
   margin: 0 auto;
+  color: colors.$white;
 }
 
 h1, h2 {

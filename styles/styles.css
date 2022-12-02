@@ -7,7 +7,6 @@ ul {
 }
 
 .card__container {
-  display: flex;
   justify-content: center;
   list-style: none;
   margin-bottom: 100px;
@@ -22,6 +21,7 @@ ul {
   margin-right: 65px;
   background-color: #fff;
   position: relative;
+  margin-bottom: 30px;
 }
 
 .card:hover {

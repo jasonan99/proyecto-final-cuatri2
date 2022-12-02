@@ -10,7 +10,6 @@ ul {
 }
 
 .card__container {
-  display: flex;
   justify-content: center;
   list-style: none;
   margin-bottom: 100px; // Presentacion entrega design system
@@ -25,6 +24,7 @@ ul {
   margin-right: 65px;
   background-color: #fff;
   position: relative;
+  margin-bottom: 30px // Presentacion entrega design system;
 }
 
 .card:hover {

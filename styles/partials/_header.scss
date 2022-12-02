@@ -42,6 +42,10 @@
   margin-top: 15px;
 }
 
+.header__btn {
+  width: 400px;
+}
+
 .header__btn--log {
   background: colors.$white;
   border-radius: 10px;
@@ -49,6 +53,7 @@
   font-size: 22px;
   align-items: center;
   padding: 10px;
+  margin-left: 185px;
 }
 
 .header__btn--log:hover {

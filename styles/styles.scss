@@ -6,6 +6,8 @@
 @use './partials/cart';
 @use './partials/header';
 @use './partials/colors';
+@use './partials/blog';
+@use './partials/pop-up-form';
 
 * {
   box-sizing: border-box;
@@ -41,11 +43,25 @@ button {
 input {
   font-size: 24px;
   padding: 20px 8px;
+  text-align: center;
 }
 
 footer {
   width: 100%;
   background-color: colors.$black;
+}
+
+.buttons {
+  padding: 10px 75px;
+  background-color: colors.$black;
+  margin-top: 50px;
+  border-radius: 10px;
+  border: solid 2px colors.$black;
+}
+
+.buttons:hover {
+  background-color: white;
+  color: colors.$black;
 }
 
 .visually-hidden {

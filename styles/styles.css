@@ -372,6 +372,7 @@ ul {
   margin: auto 0;
   font-size: 35px;
   font-weight: bold;
+  color: white;
 }
 
 .cart__quantity {

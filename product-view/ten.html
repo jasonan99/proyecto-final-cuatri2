@@ -4,11 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ten</title>
+  <title>Ten - Pearl Jam</title>
   <link rel="stylesheet" href="../styles/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Rubik:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -25,7 +26,7 @@
           <div class="header__nav--hover"><a href="../index.html">HOME</a></div>
           <div class="header__nav--hover"><a href="../services/services.html">SERVICES</a></div>
           <div class="header__nav--hover"><a href="../categories/categories.html">CATEGORIES</a></div>
-          <div class="header__nav--hover"><a href="#">BLOG</a></div>
+          <div class="header__nav--hover"><a href="../blog/blog.html">BLOG</a></div>
         </nav>
         <div class="header__flex">
           <a class="header__btn--log" href="#">LOG IN</a>
@@ -40,14 +41,17 @@
         <img src="../images/ten-pearljam__categories.png" alt="">
       </div>
       <div class="view__content">
+        <h1>Ten - Pearl Jam</h1>
         <p>Ten is the debut studio album by American rock band Pearl Jam, released on August 27, 1991, through Epic Records.</p>
+        <p>$9.99</p>
       </div>
       <div class="view__price">
-        <h2>$9.99</h2>
-        <a href="#" class="view__anchor" style="color:black;">BUY</a>
-        <button class="view__plus" id="suma" style="color:black;">+</button>
-        <p id="quantity">0</p>
-        <button class="view__minus" id="resta" style="color:black;">-</button>
+        <a href="../cart/cart.html" class="view__anchor" style="color: black">Add to cart</a>
+        <div>
+          <button style="color: black">+<span class="visually-hidden">More</span></button>
+          <p>1</p>
+          <button style="color: black">-<span class="visually-hidden">Less</span></button>
+        </div>
       </div>
     </section>
   </main>
@@ -87,6 +91,5 @@
       <p>All right reserved</p>
     </div>
   </footer>
-  <script src="js/suma.js"></script>
 </body>
 </html>

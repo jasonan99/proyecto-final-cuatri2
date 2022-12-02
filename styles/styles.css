@@ -90,7 +90,7 @@ ul {
 }
 
 .card__cta--arrow::after {
-  content: url("../images/icons/arrow-right.png");
+  content: url("../../images/icons/arrow-right.png");
   position: absolute;
   left: 4px;
   bottom: -2px;

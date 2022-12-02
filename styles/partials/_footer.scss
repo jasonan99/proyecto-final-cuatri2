@@ -1,0 +1,89 @@
+@use './colors';
+
+footer {
+  width: 100%;
+  background-color: colors.$black;
+}
+
+.footer {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 435px;
+  // margin-top: 80px;
+  padding: 0 130px;
+}
+
+.footer__logo {
+  height: 20px;
+  width: 100px;
+  margin-right: 130px;
+}
+
+.footer__nav__social {
+  display: flex;
+  margin-left: 75px;
+  li {
+    position: relative;
+    list-style: none;
+  }
+}
+
+.footer__nav__social--facebook::before {
+  content: url(../images/icons/facebook.png);
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.footer__nav__social--instagram::before {
+  content: url(../images/icons/instagram.png);
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.footer__nav__social--youtube::before {
+  content: url(../images/icons/youtube.png);
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.footer__nav__social--twitter::before {
+  content: url(../images/icons/twitter.png);
+  cursor: pointer;
+}
+
+.form__newsletter--description {
+  width: 443px;
+  height: 312px;
+  background-color: #fff;
+  border-radius: 40px;
+  color: colors.$black;
+  padding: 50px 16px 50px 16px; 
+  p {
+    font-family: 'Rubik Dirt', sans-serif;
+    font-size: 35px;
+    text-align: center;
+  }
+}
+
+#email-newsletter {
+  width: 100%;
+  padding: 20px 8px;
+  border-radius: 10px;
+  border: 5px solid colors.$black;
+}
+
+
+
+.footer__rights {
+  display: flex;
+  justify-content: space-between;
+  color: colors.$white;
+  width: 1160px;
+  margin: 0 auto;
+  margin-top: 20px;
+  p {
+    font-size: 14px;
+  }
+}

@@ -27,9 +27,40 @@
           <div class="header__nav--hover"><a href="../services/services.html">SERVICES</a></div>
           <div class="header__nav--hover"><a href="../categories/categories.html">CATEGORIES</a></div>
         </nav>
-        <div class="header__flex">
-          <a class="header__btn--log" href="#">LOG IN</a>
-          <a class="header__btn--sign" href="#">SIGN UP</a>
+        <div class="header__flex header__btn">
+          <a class="header__btn--log" onclick="openFormL()" href="#">LOG IN</a>
+          <div class="form-popup" id="form-log-in">
+            <button class="form-btn-close" onclick="closeFormL()">X</button>
+            <form action="" class="form-container">
+              <h2 class="form-container-tittle">LOG IN</h2>
+              <label class="visually-hidden" for="name">Enter your name</label>
+              <input class="form-input" type="text" id="name" name="name" placeholder="Name"/>
+              <label class="visually-hidden" for="last-name">Enter your last name</label>
+              <input class="form-input" type="text" id="last-name" name="last-name" placeholder="Last name"/>
+              <label class="visually-hidden" for="email">Enter your email</label>
+              <input class="form-input" type="email" id="email" name="email" placeholder="Email"/>
+              <label class="visually-hidden" for="password">Enter your password</label>
+              <input class="form-input" type="password" id="password" name="password" placeholder="Password"/>
+              <div class="form-center">
+                <button type="submit" class="buttons">Start</button>
+              </div>
+            </form>
+          </div>
+          <a class="header__btn--sign" onclick="openFormS()" href="#">SIGN UP</a>
+          <div class="form-popup form-popup-sign-up" id="form-sign-up">
+            <button class="form-btn-close" onclick="closeFormS()">X</button>
+            <form action="" class="form-container">
+              <h2 class="form-container-tittle">SIGN UP</h2>
+              <label class="visually-hidden" for="email">Enter your email</label>
+              <input class="form-input" type="email" id="email" name="email" placeholder="Email"/>
+              <label class="visually-hidden" for="password">Enter your password</label>
+              <input class="form-input" type="password" id="password" name="password" placeholder="Password"/>
+              <a class="form-forget form-center" href="#">Olvidé mi contraseña</a>
+              <div class="form-center">
+                <button type="submit" class="buttons">Start</button>
+              </div>
+            </form>
+          </div>
         </div> 
       </div> 
     </div>

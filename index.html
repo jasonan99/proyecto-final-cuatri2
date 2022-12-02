@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Rubik:wght@400;600&display=swap" rel="stylesheet">
   <title>Back To The Future Vinyl</title>
   <script src="./scripts/forms.js"></script>
+  <script src="./scripts/slideshow.js"></script>
 </head>
 <body>
   <header>
@@ -67,16 +68,28 @@
   </header>
   <main>
     <div class="slideshow__container">
-      <div class="slideshow">
-        <img src="./images/slideshow-img-one.png" alt="find here latest products">
+
+      <div class="slideshow fade" style="display: block;">
+        <img src="./images/slideshow-img-one.png" alt="">
       </div>
-      <a class="slideshow__arrow--previus">❮</a>
-      <a class="slideshow__arrow--next">❯</a>
+
+      <div class="slideshow fade">
+        <img src="./images/img1.jpg" alt="">
+      </div>
+
+      <div class="slideshow fade">
+        <img src="./images/img2.jpg" alt="">
+      </div>
+
+
+      <a class="slideshow__arrow--previus" onclick="plusSlides(-1)">❮</a>
+      <a class="slideshow__arrow--next" onclick="plusSlides(1)">❯</a>
     </div>
+
     <div class="slideshow__dots">
-      <span class="slideshow__dots--pass"></span> 
-      <span class="slideshow__dots--pass"></span> 
-      <span class="slideshow__dots--pass"></span> 
+      <span class="slideshow__dots--pass" onclick="currentSlide(1)"></span> 
+      <span class="slideshow__dots--pass" onclick="currentSlide(2)"></span> 
+      <span class="slideshow__dots--pass" onclick="currentSlide(3)"></span> 
     </div>
     <h1>Find in our shop the new vinyl releases</h1>
     <ul class="card__container">

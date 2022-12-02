@@ -8,9 +8,8 @@ ul {
 
 .card__container {
   display: flex;
+  justify-content: center;
   list-style: none;
-  margin: 0;
-  padding-left: 130px;
   margin-bottom: 100px;
 }
 
@@ -60,6 +59,10 @@ ul {
   color: #2B2929;
 }
 
+.card__info__category {
+  color: #2B2929;
+}
+
 .card__cta {
   font-size: 22px;
   padding: 0 20px 20px;
@@ -100,18 +103,13 @@ ul {
   left: 4px;
 }
 
-footer {
-  width: 100%;
-  background-color: #2B2929;
-}
-
 .footer {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 435px;
-  padding: 0 130px;
+  padding: 30px 100px;
 }
 
 .footer__logo {
@@ -122,7 +120,7 @@ footer {
 
 .footer__nav__social {
   display: flex;
-  margin-left: 75px;
+  margin-left: 100px;
 }
 .footer__nav__social li {
   position: relative;
@@ -168,7 +166,6 @@ footer {
 
 #email-newsletter {
   width: 100%;
-  padding: 20px 8px;
   border-radius: 10px;
   border: 5px solid #2B2929;
 }
@@ -223,6 +220,7 @@ footer {
 
 .slideshow__dots {
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .slideshow__dots--pass {
@@ -241,7 +239,6 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding-left: 130px;
 }
 
 .block__div--ds {
@@ -311,7 +308,6 @@ footer {
   justify-content: space-evenly;
   flex-direction: row-reverse;
   margin-bottom: 100px;
-  padding-left: 130px;
 }
 
 .block__div--reverse--ds {
@@ -354,7 +350,7 @@ footer {
 
 .cart {
   background: #2B2929;
-  padding: 30px 200px 30px 130px;
+  padding: 30px 200px 30px 30px;
   margin-bottom: 100px;
 }
 
@@ -389,7 +385,7 @@ footer {
 
 .header {
   background: #2B2929;
-  padding: 30px 130px;
+  padding: 30px 100px;
   margin-bottom: 100px;
 }
 
@@ -468,7 +464,6 @@ body {
 
 h1, h2 {
   color: #2B2929;
-  padding-left: 130px;
 }
 
 a {
@@ -486,6 +481,12 @@ button {
 
 input {
   font-size: 24px;
+  padding: 20px 8px;
+}
+
+footer {
+  width: 100%;
+  background-color: #2B2929;
 }
 
 .visually-hidden {

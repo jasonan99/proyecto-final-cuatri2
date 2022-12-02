@@ -19,7 +19,6 @@ body {
 
 h1, h2 {
   color: colors.$black;
-  padding-left: 130px;
 }
 
 a {
@@ -37,6 +36,12 @@ button {
 
 input {
   font-size: 24px;
+  padding: 20px 8px;
+}
+
+footer {
+  width: 100%;
+  background-color: colors.$black;
 }
 
 .visually-hidden {

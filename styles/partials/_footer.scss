@@ -1,18 +1,13 @@
 @use './colors';
 
-footer {
-  width: 100%;
-  background-color: colors.$black;
-}
-
 .footer {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 435px;
+  padding: 30px 100px;
   // margin-top: 80px;
-  padding: 0 130px;
 }
 
 .footer__logo {
@@ -23,7 +18,7 @@ footer {
 
 .footer__nav__social {
   display: flex;
-  margin-left: 75px;
+  margin-left: 100px;
   li {
     position: relative;
     list-style: none;
@@ -69,12 +64,9 @@ footer {
 
 #email-newsletter {
   width: 100%;
-  padding: 20px 8px;
   border-radius: 10px;
   border: 5px solid colors.$black;
 }
-
-
 
 .footer__rights {
   display: flex;

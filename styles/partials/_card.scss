@@ -11,9 +11,8 @@ ul {
 
 .card__container {
   display: flex;
+  justify-content: center;
   list-style: none;
-  margin: 0;
-  padding-left: 130px;// Presentacion entrega design system
   margin-bottom: 100px; // Presentacion entrega design system
 }
 
@@ -49,7 +48,6 @@ ul {
   padding: 20px 20px 0 20px;
   margin-top: 10px;
   text-align: center;
-
 }
 
 .card__info__price {
@@ -62,6 +60,10 @@ ul {
 .card__info__name {
   margin: 0;
   font-size: 22px;
+  color: colors.$black;
+}
+
+.card__info__category {
   color: colors.$black;
 }
 

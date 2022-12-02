@@ -4,11 +4,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Product-view</title>
   <link rel="stylesheet" href="../styles/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&family=Rubik:wght@400;600&display=swap" rel="stylesheet">
+  <title>Card</title>
 </head>
 <body>
   <header>
@@ -35,24 +35,48 @@
     </div>
   </header>
   <main>
-    <section class="view">
-      <div class="view__img">
-        <img src="../images/vinyl.png" alt="">
+    <h1>Cart</h1>
+    <div class="cart">
+      <div class="cart__flex">
+        <div class="cart__img">
+          <button class="cart__btn">X<span class="visually-hidden">Remove Product</span></button>
+          <img src="../images/cart__product1.png" alt="">
+        </div>
+        <p class="cart__center">Product Description</p>
+        <div class="cart__flex cart__center">
+          <button class="cart__quantity">+<span class="visually-hidden">More</span></button>
+          <p class="cart__quantity">1</p>
+          <button class="cart__quantity">-<span class="visually-hidden">Less</span></button>
+        </div>
+        <p class="cart__center">$9.99</p>
       </div>
-      <div class="view__content">
-        <p>The Division Bell is the fourteenth album by the English progressive rock band Pink Floyd, released on 28 March 1994.</p>
+    </div>
+    <div class="cart">
+      <div class="cart__flex">
+        <div class="cart__img">
+          <button class="cart__btn">X<span class="visually-hidden">Remove Product</span></button>
+          <img src="../images/cart__product1.png" alt="">
+        </div>
+        <p class="cart__center">Product Description</p>
+        <div class="cart__flex cart__center">
+          <button class="cart__quantity">+<span class="visually-hidden">More</span></button>
+          <p class="cart__quantity">1</p>
+          <button class="cart__quantity">-<span class="visually-hidden">Less</span></button>
+        </div>
+        <p class="cart__center">$9.99</p>
       </div>
-      <div class="view__price">
-        <h2>$9.99</h2>
-        <a href="#" class="view__anchor">BUY</a>
-        <button class="view__plus">+</button>
-        <input type="text" value="1" id="quantity" name="Quantity" pattern="[0-9]*" class="view__quantity">
-        <button class="view__minus">-</button>
-      </div>
-    </section>
+    </div>
+    <div>
+      <h2>Talk with Us</h2>
+      <form action="">
+        <label for="comment">Let us know if you didn’t find the vinyl that you were looking for</label>
+        <textarea name="comment" id="comment" cols="40" rows="10"></textarea>
+        <button>Send</button>
+      </form>
+    </div>
   </main>
   <footer>
-    <!-- //////////NAVEGACION DEL FOOTER /////// -->
+  <!-- //////////NAVEGACION DEL FOOTER /////// -->
     <div class="footer">
       <div class="footer__logo">
         <img src="../images/logo.png" alt="">

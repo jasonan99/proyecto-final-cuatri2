@@ -14,6 +14,10 @@
 .cart__center {
   margin: auto 0;
   font-size: 24px;
+  color: colors.$white;
+  p {
+    color: colors.$white;
+  }
 }
 
 .cart__price {

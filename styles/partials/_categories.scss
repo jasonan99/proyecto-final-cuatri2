@@ -3,7 +3,8 @@
 .categories__container {
   display: flex;
 	margin: 0 auto;
-	max-width: 1300px;
+	max-width: 1900px;
+	padding-left: 150px;
 }
 
 // -------- Filtros ----------
@@ -22,25 +23,36 @@
 	font-size: 40px;
 }
 
-.sidebar__categories {
-	background-color: colors.$white;
-	width: 100%;
-	margin: 0 auto;
-	border-radius: 10px;	
-}
-
 .sidebar__filters {
+	background-color: colors.$white;
 	font-weight: bold;
-	padding: 20px;
+	padding: 5px;
 	list-style: none;
-	// margin-bottom: 20px;
+	margin-bottom: 20px;
 	text-align: center;
 	cursor: pointer;
-	input {
-		border: none;
-		border-radius: 10px;
-		padding: 0;
-	}
+	border-radius: 10px;
+}
+
+.sidebar__categories--buttons {
+	color: colors.$black;
+}
+
+.sidebar__search--bar {
+	height: 45px;
+	width: 320px;
+	border-radius: 10px;
+}
+
+.sidebar__search--img {
+	content: "";
+	background: url("../images/icons/search.svg") no-repeat;
+	width: 35px;
+	height: 35px;
+	position: relative;
+	right: -88%;
+	top: -39px;
+	margin-bottom: -25px;
 }
 
 // .sidebar__input {

@@ -1,7 +1,8 @@
 .categories__container {
   display: flex;
   margin: 0 auto;
-  max-width: 1300px;
+  max-width: 1900px;
+  padding-left: 150px;
 }
 
 .sidebar {
@@ -19,24 +20,36 @@
   font-size: 40px;
 }
 
-.sidebar__categories {
+.sidebar__filters {
   background-color: white;
-  width: 100%;
-  margin: 0 auto;
+  font-weight: bold;
+  padding: 5px;
+  list-style: none;
+  margin-bottom: 20px;
+  text-align: center;
+  cursor: pointer;
   border-radius: 10px;
 }
 
-.sidebar__filters {
-  font-weight: bold;
-  padding: 20px;
-  list-style: none;
-  text-align: center;
-  cursor: pointer;
+.sidebar__categories--buttons {
+  color: #2B2929;
 }
-.sidebar__filters input {
-  border: none;
+
+.sidebar__search--bar {
+  height: 45px;
+  width: 320px;
   border-radius: 10px;
-  padding: 0;
+}
+
+.sidebar__search--img {
+  content: "";
+  background: url("../images/icons/search.svg") no-repeat;
+  width: 35px;
+  height: 35px;
+  position: relative;
+  right: -88%;
+  top: -39px;
+  margin-bottom: -25px;
 }
 
 .card__container {
@@ -139,7 +152,7 @@ ul {
 }
 
 .card__cta--arrow::after {
-  content: url("../../images/icons/arrow-right.png");
+  content: url("../images/icons/arrow-right.png");
   position: absolute;
   left: 4px;
   bottom: -2px;
@@ -155,7 +168,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   height: 435px;
-  padding: 30px 100px;
+  padding: 30px 200px;
 }
 
 .footer__logo {
@@ -455,7 +468,7 @@ ul {
 
 .header {
   background: #2B2929;
-  padding: 30px 100px;
+  padding: 30px 200px;
   margin-bottom: 100px;
 }
 
@@ -603,6 +616,12 @@ body {
 
 h1, h2 {
   color: #2B2929;
+}
+
+h1 {
+  margin-left: 12%;
+  font-size: 45px;
+  margin-bottom: 100px;
 }
 
 a {

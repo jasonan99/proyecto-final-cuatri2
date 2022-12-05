@@ -70,13 +70,26 @@
     <div class="categories__container">
       <div class="sidebar">
         <h2 class="sidebar__title">Filters</h2>
-        <ul class="sidebar__categories">
-          <li class="sidebar__filters">
-            <input type="text" placeholder="Search Vinyls Here" name="search">
+         <div class="header__search">
+          <input class="sidebar__search--bar" type="text">
+          <a href=""><div class="sidebar__search--img"></div></a>
+        </div>
+        <ul>
+          <li>
+            <div class="sidebar__filters">
+              <button class="sidebar__categories--buttons">Genres</button>
+            </div>
           </li>
-          <li class="sidebar__filters"> <a href="#"></a>Genres</li>
-          <li class="sidebar__filters"> <a href="#"></a>Artist</li>
-          <li class="sidebar__filters"> <a href="#"></a>Decade</li>
+          <li>
+            <div class="sidebar__filters">
+              <button class="sidebar__categories--buttons">Artist</button>
+           </div>
+          </li>
+          <li>
+            <div class="sidebar__filters">
+              <button class="sidebar__categories--buttons">Decade</button>
+           </div>
+          </li>
         </ul>
       </div>
       <ul class="card__container">

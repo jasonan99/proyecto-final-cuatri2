@@ -462,6 +462,43 @@ ul {
   margin-right: 30px;
 }
 
+.cart__form {
+  background-color: #F2EFEB;
+  width: 1200px;
+  margin: 0 auto;
+  height: 560px;
+  padding: 200px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+}
+
+.cart__form--container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cart__form--info {
+  margin-top: -100px;
+}
+
+.cart__form--button {
+  position: relative;
+  left: 295px;
+}
+
+.cart__form--tittle {
+  font-size: 45px;
+  font-weight: normal;
+  margin-top: -60px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  border-radius: 10px;
+}
+
 .header {
   background: #2B2929;
   padding: 30px 200px;

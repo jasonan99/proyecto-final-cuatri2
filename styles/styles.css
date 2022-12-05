@@ -1,3 +1,49 @@
+.categories__container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.sidebar {
+  background-color: #2B2929;
+  height: 620px;
+  width: 30%;
+  border-radius: 10px;
+  padding: 35px;
+}
+
+.sidebar__title {
+  color: white;
+  text-align: center;
+  margin: 80px 0;
+  font-size: 40px;
+}
+
+.sidebar__categories {
+  background-color: white;
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.sidebar__filters {
+  font-weight: bold;
+  padding: 20px;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+}
+.sidebar__filters input {
+  border: none;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.card__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 ul {
   padding-left: 0;
 }

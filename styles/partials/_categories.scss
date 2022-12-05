@@ -1,1 +1,61 @@
 @use './colors';
+
+.categories__container {
+  display: flex;
+	margin: 0 auto;
+	max-width: 1300px;
+}
+
+// -------- Filtros ----------
+.sidebar {
+	background-color: colors.$black;
+	height: 620px;
+	width: 30%;
+	border-radius: 10px;
+	padding: 35px;
+}
+
+.sidebar__title {
+	color: colors.$white;
+	text-align: center;
+	margin: 80px 0;
+	font-size: 40px;
+}
+
+.sidebar__categories {
+	background-color: colors.$white;
+	width: 100%;
+	margin: 0 auto;
+	border-radius: 10px;	
+}
+
+.sidebar__filters {
+	font-weight: bold;
+	padding: 20px;
+	list-style: none;
+	// margin-bottom: 20px;
+	text-align: center;
+	cursor: pointer;
+	input {
+		border: none;
+		border-radius: 10px;
+		padding: 0;
+	}
+}
+
+// .sidebar__input {
+// 	content: "";
+//     background: url(../images/icons/search.svg) no-repeat;
+//     width: 35px;
+//     height: 35px;
+//     position:relative;
+// 		left: 87%;
+// 		top: 40%;
+// }
+
+// ------ cards -------
+
+.card__container {
+	display: flex;
+	flex-wrap: wrap;
+}

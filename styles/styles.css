@@ -158,10 +158,6 @@ ul {
   bottom: -2px;
 }
 
-.card__cta--arrow::after:hover {
-  left: 4px;
-}
-
 .footer {
   margin: 0 auto;
   display: flex;
@@ -472,6 +468,10 @@ ul {
   margin-bottom: 100px;
 }
 
+.header__nav--marked {
+  border-bottom: solid 3px #93151C;
+}
+
 .header__nav--hover:hover {
   border-bottom: solid 3px #93151C;
 }
@@ -538,6 +538,53 @@ ul {
 
 .header__btn--sign:hover {
   box-shadow: -1px 6px 10px 0 #777777;
+}
+
+.blog__info {
+  font-size: 24px;
+  padding-left: 12%;
+  margin-bottom: 100px;
+  margin-top: -50px;
+  width: 1200px;
+}
+
+.blog__container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 12%;
+  max-width: 1700px;
+}
+
+.blog__container--card {
+  width: 500px;
+  height: 600px;
+  border: solid 7px #2B2929;
+  padding: 50px 30px;
+  align-items: center;
+  margin-bottom: 100px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.blog__container--img,
+.blog__container--info,
+.blog__container--tittle {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.blog__container--info {
+  margin-top: 30px;
+}
+
+.blog__container--img {
+  display: block;
+  margin: auto;
+}
+
+.qwe {
+  margin: 0 auto;
 }
 
 .form-popup {

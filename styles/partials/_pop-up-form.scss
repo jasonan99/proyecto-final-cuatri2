@@ -1,7 +1,5 @@
 @use './colors';
 
-//AGREGAR LOS FORM A LOS DEMAS HTML
-
 .form-popup {
   display: none;
   position: absolute;
@@ -11,17 +9,17 @@
   z-index: 9;
 }
 
-.form-popup-sign-up {
+.form-popup__sign-up {
   margin-right: 50px;
 }
 
-.form-container {
+.form-popup__container {
   width: 200px;
   padding: 30px 20px;
   background-color: white;
 }
 
-.form-container-tittle {
+.form-popup__tittle {
   font-size: 30px;
   text-align: center;  
   margin-top: 0;
@@ -29,7 +27,7 @@
   font-weight: normal;
 }
 
-.form-input {
+.form-popup__input {
   font-size: 12px;
   padding: 6px;
   margin-bottom: 15px;
@@ -38,12 +36,12 @@
   border: 3px solid colors.$black;
 }
 
-.form-center {
+.form-popup__center {
   display: flex;
   justify-content: center;
 }
 
-.form-btn {
+.form-popup__btn {
   font-size: 16px;
   padding: 5px 35px;
   background-color: #2B2929;
@@ -52,12 +50,12 @@
   border: solid 2px #2B2929;
 }
 
-.form-btn:hover {
+.form-popup__btn:hover {
   background-color: white;
   color: colors.$black;
 }
 
-.form-btn-close {
+.form-popup__btn--close {
   margin-right: 0;
   margin-top: 10px;
   color: colors.$black;
@@ -65,22 +63,22 @@
   font-size: 16px;
 }
 
-.form-btn-close-sign {
+.form-popup__btn--close--sign {
   margin-left: 170px;
 }
 
-.form-forget {
+.form-popup__forget {
   color: colors.$black;
   text-decoration: underline;
   text-align: center;
   font-size: 12px;
 }
 
-.form-forget:hover {
+.form-popup__forget:hover {
   opacity: 80%;
 }
 
-.form-last-input {
+.form-popup__input--last {
   margin-bottom: 12px;
 }
 
@@ -89,15 +87,15 @@
     margin-top: 74px;
   }
 
-  .form-container {
+  .form-popup__container {
     width: 230px;
   }
 
-  .form-btn-close {
+  .form-popup__btn--close {
     margin-left: 5px;
   }
 
-  .form-btn-close-sign {
+  .form-popup__btn--close--sign {
     margin-left: 205px;
   }
 }
@@ -108,7 +106,7 @@
     margin-top: 70px;
   }
 
-  .form-popup-sign-up {
+  .form-popup__sign-up {
     margin-right: 0;
   }
 }
@@ -119,42 +117,42 @@
     margin-right: 125px;
   }
 
-  .form-popup-sign-up {
+  .form-popup__sign-up {
     margin-right: 0;
   }
 
-  .form-container {
+  .form-popup__container {
     width: 300px;
     padding: 40px 40px;
   }
 
-  .form-container-tittle {
+  .form-popup__tittle {
     font-size: 40px;
   }
 
-  .form-input {
+  .form-popup__input {
     font-size: 18px;
     padding: 5px;
     margin-bottom: 20px;
     border: 5px solid colors.$black;
   }
 
-  .form-btn {
+  .form-popup__btn {
     font-size: 18px;
     padding: 10px 75px;
   }
 
-  .form-btn-close,
-  .form-btn-close-sign {
+  .form-popup__btn--close,
+  .form-popup__btn--close--sign {
     margin-left: 265px;
     font-size: 24px;
   }
 
-  .form-forget {
+  .form-popup__forget {
     font-size: 16px;
   }
 
-  .form-last-input {
+  .form-popup__input--last {
     margin-bottom: 25px;
   }
 }

@@ -54,6 +54,7 @@
 }
 
 .header__nav {
+  display: block;
   width: 10%;
   font-size: 14px;
   margin: 0 auto;
@@ -129,6 +130,8 @@
   .header__nav {
     font-size: 16px;
     width: 65%;
+    display: flex;
+    justify-content: space-between;
   }
 
   .header__nav--marked {
@@ -141,6 +144,7 @@
   }
 
   .header__btn {
+    display: flex;
     width: 400px;
     justify-content: flex-end;
     margin: 0;

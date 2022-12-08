@@ -611,7 +611,7 @@ textarea {
     height: 35px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
   .header {
     padding: 30px 100px;
   }
@@ -731,38 +731,37 @@ textarea {
 .form-popup {
   display: none;
   position: absolute;
-  margin-top: 77px;
-  margin-right: 124px;
+  margin-top: 68px;
+  margin-right: -50px;
   border: 3px solid #f1f1f1;
   z-index: 9;
 }
 
 .form-popup-sign-up {
-  margin-right: 0;
+  margin-right: 50px;
 }
 
-/* Add styles to the form container */
 .form-container {
-  width: 400px;
-  padding: 60px 40px;
+  width: 200px;
+  padding: 30px 20px;
   background-color: white;
 }
 
 .form-container-tittle {
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-weight: normal;
 }
 
 .form-input {
-  font-size: 20px;
-  padding: 10px;
-  margin-bottom: 30px;
+  font-size: 12px;
+  padding: 6px;
+  margin-bottom: 15px;
   width: 100%;
   border-radius: 10px;
-  border: 5px solid #2B2929;
+  border: 3px solid #2B2929;
 }
 
 .form-center {
@@ -770,46 +769,105 @@ textarea {
   justify-content: center;
 }
 
-/* Add a red background color to the cancel button */
+.form-btn {
+  font-size: 16px;
+  padding: 5px 35px;
+  background-color: #2B2929;
+  margin-top: 25px;
+  border-radius: 10px;
+  border: solid 2px #2B2929;
+}
+
+.form-btn:hover {
+  background-color: white;
+  color: #2B2929;
+}
+
 .form-btn-close {
-  margin-left: 350px;
+  margin-right: 0;
   margin-top: 10px;
   color: #2B2929;
   font-weight: bold;
+  font-size: 16px;
+}
+
+.form-btn-close-sign {
+  margin-left: 170px;
 }
 
 .form-forget {
   color: #2B2929;
   text-decoration: underline;
   text-align: center;
+  font-size: 12px;
 }
 
 .form-forget:hover {
   opacity: 80%;
 }
 
-@media (max-width: 768px) {
+.form-last-input {
+  margin-bottom: 12px;
+}
+
+@media (min-width: 481px) {
   .form-popup {
-    margin-right: 375px;
+    margin-top: 74px;
   }
   .form-container {
-    width: 345px;
-    padding: 30px 20px;
+    width: 230px;
+  }
+  .form-btn-close {
+    margin-left: 5px;
+  }
+  .form-btn-close-sign {
+    margin-left: 205px;
+  }
+}
+@media (min-width: 769px) {
+  .form-popup {
+    margin-right: -70px;
+    margin-top: 70px;
+  }
+  .form-popup-sign-up {
+    margin-right: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .form-popup {
+    margin-top: 77px;
+    margin-right: 125px;
+  }
+  .form-popup-sign-up {
+    margin-right: 0;
+  }
+  .form-container {
+    width: 300px;
+    padding: 40px 40px;
   }
   .form-container-tittle {
-    font-size: 30px;
+    font-size: 40px;
   }
   .form-input {
     font-size: 18px;
-    padding: 8px;
-    margin-bottom: 25px;
-    border: 4px solid #2B2929;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 5px solid #2B2929;
   }
-  .form-btn-close {
-    margin-left: 310px;
+  .form-btn {
+    font-size: 18px;
+    padding: 10px 75px;
+  }
+  .form-btn-close,
+  .form-btn-close-sign {
+    margin-left: 265px;
+    font-size: 24px;
+  }
+  .form-forget {
+    font-size: 16px;
   }
   .form-last-input {
-    margin-bottom: 12px;
+    margin-bottom: 25px;
   }
 }
 * {

@@ -4,13 +4,13 @@
   display: none;
   position: absolute;
   margin-top: 77px;
-  margin-left: -130px;
+  margin-right: 124px;
   border: 3px solid #f1f1f1;
   z-index: 9;
 }
 
 .form-popup-sign-up {
-  margin-left: 0;
+  margin-right: 0;
 }
 
 /* Add styles to the form container */
@@ -58,4 +58,34 @@
 
 .form-forget:hover {
   opacity: 80%;
+}
+
+@media (max-width: 768px) { 
+  .form-popup {
+    margin-right: 375px;
+  }
+
+  .form-container {
+    width: 345px;
+    padding: 30px 20px; 
+  }
+
+  .form-container-tittle {
+    font-size: 30px;
+  }
+
+  .form-input {
+    font-size: 18px;
+    padding: 8px;
+    margin-bottom: 25px;
+    border: 4px solid colors.$black;
+  }
+
+  .form-btn-close {
+    margin-left: 310px; 
+  }
+
+  .form-last-input {
+    margin-bottom: 12px;
+  }
 }

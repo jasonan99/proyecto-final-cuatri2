@@ -86,64 +86,56 @@
       <h1>Cart</h1>
       <div class="cart">
         <div class="cart__flex">
-          <div class="cart__img">
-            <button class="cart__btn">
-              X<span class="visually-hidden">Remove Product</span>
-            </button>
-            <img src="../images/cart__product1.png" alt="" />
+          <div class="cart__container">
+            <button class="cart__btn">X<span class="visually-hidden">Remove Product</span></button>
+            <img class="cart__img" src="../images/cart__product1.png" alt="" />
           </div>
-          <p class="cart__center">Product Description</p>
-          <div class="cart__flex cart__center">
-            <button class="cart__quantity" id="suma1">
-              +<span class="visually-hidden">More</span>
-            </button>
-            <p class="cart__quantity" id="quantity1">1</p>
-            <button class="cart__quantity" id="resta1">
-              -<span class="visually-hidden">Less</span>
-            </button>
+          <div class="cart__center">
+            <p class="cart__center">Product</p>
+            <div class="cart__center--flex">
+              <button class="cart__quantity" id="suma1">+<span class="visually-hidden">More</span></button>
+              <p class="cart__quantity" id="quantity1">1</p>
+              <button class="cart__quantity" id="resta1">-<span class="visually-hidden">Less</span></button>
+            </div>
+            <p class="cart__center">$9.99</p>
           </div>
-          <p class="cart__center">$9.99</p>
         </div>
       </div>
       <div class="cart">
         <div class="cart__flex">
-          <div class="cart__img">
-            <button class="cart__btn">
-              X<span class="visually-hidden">Remove Product</span>
-            </button>
-            <img src="../images/cart__product1.png" alt="" />
+          <div class="cart__container">
+            <button class="cart__btn">X<span class="visually-hidden">Remove Product</span></button>
+            <img class="cart__img" src="../images/cart__product2.png" alt="" />
           </div>
-          <p class="cart__center">Product Description</p>
-          <div class="cart__flex cart__center">
-            <button class="cart__quantity" id="suma">
-              +<span class="visually-hidden">More</span>
-            </button>
-            <p class="cart__quantity" id="quantity">1</p>
-            <button class="cart__quantity" id="resta">
-              -<span class="visually-hidden">Less</span>
-            </button>
+          <div class="cart__center">
+            <p class="cart__center">Product</p>
+            <div class="cart__center--flex">
+              <button class="cart__quantity" id="suma">+<span class="visually-hidden">More</span></button>
+              <p class="cart__quantity" id="quantity">1</p>
+              <button class="cart__quantity" id="resta">-<span class="visually-hidden">Less</span></button>
+            </div>
+            <p class="cart__center">$9.99</p>
           </div>
-          <p class="cart__center">$9.99</p>
         </div>
       </div>
       <div class="cart__form">
         <form action="">
-          <div class="cart__form--container">
-            <div class="cart__form--info">
-              <h2 class="cart__form--tittle">Talk with Us</h2>
+          <div class="cart__form-container">
+            <div class="cart__form-info">
+              <h2 class="cart__form-tittle">Talk with Us</h2>
               <label for="comment"
                 >Let us know if you didn’t find the vinyl that you were looking
                 for</label
               >
             </div>
-            <div class="cart__form--text">
+            <div class="cart__form-text">
               <textarea
                 name="comment"
                 id="comment"
                 cols="60"
                 rows="10"
               ></textarea>
-              <button class="buttons cart__form--button">Send</button>
+              <button class="cart__form-btn">Send</button>
             </div>
           </div>
         </form>

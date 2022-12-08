@@ -34,7 +34,7 @@
   justify-content: center;
 }
 
-.header__search--bar {
+.header__search-bar {
   height: 27px;
   width: 100%;
   border-radius: 10px;
@@ -43,7 +43,7 @@
   padding: 10px 4px;
 }
 
-.header__search--img {
+.header__search-img {
   content: "";
   background: url("../images/icons/search.png") no-repeat;
   width: 35px;
@@ -111,7 +111,7 @@
     font-size: 20px;
   }
 
-  .header__search--img {
+  .header__search-img {
     right: 7%;
     height: 35px;
   }
@@ -159,12 +159,12 @@
     display: block;
   }
 
-  .header__search--bar {
+  .header__search-bar {
     height: 35px;
     margin: 0;
   }
 
-  .header__search--img {
+  .header__search-img {
     background: url("../images/icons/search.svg") no-repeat;
     height: 35px;
     top: -34px;
@@ -202,7 +202,7 @@
     font-size: 22px;
   }
 
-  .header__search--img {
+  .header__search-img {
     right: -80%;
   }
 }

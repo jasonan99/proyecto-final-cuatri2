@@ -159,84 +159,176 @@ ul {
 }
 
 .footer {
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   height: 435px;
-  padding: 30px 200px;
+  padding: 40px 25px;
 }
 
-.footer__logo {
-  height: 20px;
-  width: 100px;
-  margin-right: 130px;
+.footer__logo--img {
+  width: 250px;
+  display: block;
+  margin: auto;
 }
 
 .footer__nav__social {
   display: flex;
-  margin-left: 100px;
+  justify-content: center;
+  margin: 10px 0 60px 0;
 }
 .footer__nav__social li {
-  position: relative;
   list-style: none;
 }
 
 .footer__nav__social--facebook::before {
   content: url(../images/icons/facebook.png);
-  margin-right: 20px;
   cursor: pointer;
+  margin-right: 16px;
 }
 
 .footer__nav__social--instagram::before {
   content: url(../images/icons/instagram.png);
-  margin-right: 20px;
   cursor: pointer;
+  margin-right: 16px;
 }
 
 .footer__nav__social--youtube::before {
   content: url(../images/icons/youtube.png);
-  margin-right: 20px;
   cursor: pointer;
+  margin-right: 16px;
 }
 
 .footer__nav__social--twitter::before {
   content: url(../images/icons/twitter.png);
   cursor: pointer;
+  margin-right: 16px;
 }
 
 .form__newsletter--description {
-  width: 443px;
-  height: 312px;
+  width: 250px;
+  height: 165px;
+  margin: 0 auto;
   background-color: white;
   border-radius: 40px;
   color: #2B2929;
-  padding: 50px 16px 50px 16px;
+  padding: 30px 16px 30px 16px;
 }
 .form__newsletter--description p {
   font-family: "Rubik Dirt", sans-serif;
-  font-size: 35px;
+  font-size: 22px;
   text-align: center;
+  margin: 0 0 25px 0;
 }
 
 #email-newsletter {
   width: 100%;
+  font-size: 20px;
+  padding: 8px;
+  border: solid 3px #2B2929;
   border-radius: 10px;
-  border: 5px solid #2B2929;
+  margin-top: -10px;
 }
 
 .footer__rights {
   display: flex;
   justify-content: space-between;
-  width: 1160px;
-  margin: 0 auto;
-  margin-top: 20px;
+  padding: 0 25px;
 }
 .footer__rights p {
   font-size: 14px;
   color: white;
 }
 
+@media (min-width: 480px) {
+  .footer {
+    padding: 40px 50px;
+    margin: 20px 0 25px 0;
+  }
+  .footer__logo--img {
+    width: 300px;
+  }
+  .footer__nav__social {
+    justify-content: center;
+  }
+  .form__newsletter--description {
+    width: 320px;
+    height: 200px;
+  }
+  .form__newsletter--description p {
+    font-size: 26px;
+  }
+  #email-newsletter {
+    padding: 13px;
+  }
+  .footer__rights {
+    padding: 0 50px;
+  }
+}
+@media (min-width: 768px) {
+  .footer {
+    padding: 40px 100px;
+  }
+  .footer__logo--img {
+    width: 400px;
+  }
+  .footer__nav__social {
+    margin: 10px 0 40px 0;
+  }
+  .form__newsletter--description {
+    width: 360px;
+    height: 220px;
+  }
+  .form__newsletter--description p {
+    font-size: 30px;
+    margin-bottom: 35px;
+  }
+  #email-newsletter {
+    padding: 15px;
+    border-width: 5px;
+    font-size: 25px;
+  }
+  .footer__rights {
+    padding: 0 100px;
+  }
+}
+@media (min-width: 1024px) {
+  .footer {
+    padding: 40px 75px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 435px;
+  }
+  .footer__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footer__nav__social--facebook::before {
+    content: url(../images/icons/facebook-36px.png);
+  }
+  .footer__nav__social--instagram::before {
+    content: url(../images/icons/instagram-36px.png);
+  }
+  .footer__nav__social--youtube::before {
+    content: url(../images/icons/youtube-36px.png);
+  }
+  .footer__nav__social--twitter::before {
+    content: url(../images/icons/twitter-36px.png);
+  }
+  .footer__logo--img {
+    width: 300px;
+    height: 40px;
+  }
+  .form__newsletter--description {
+    height: 240px;
+  }
+  .form__newsletter--description p {
+    font-size: 35px;
+  }
+  .footer__rights {
+    padding: 0 75px;
+  }
+}
 .slideshow__container {
   position: relative;
   margin: auto;
@@ -603,7 +695,7 @@ textarea {
     height: 100px;
   }
   .header__btn--log,
-  .header__btn--sign {
+.header__btn--sign {
     font-size: 20px;
   }
   .header__search--img {
@@ -636,7 +728,7 @@ textarea {
     margin: 0;
   }
   .header__btn--log,
-  .header__btn--sign {
+.header__btn--sign {
     font-size: 16px;
   }
   .header__search {
@@ -674,7 +766,7 @@ textarea {
     width: 280px;
   }
   .header__btn--log,
-  .header__btn--sign {
+.header__btn--sign {
     font-size: 22px;
   }
   .header__search--img {
@@ -859,7 +951,7 @@ textarea {
     padding: 10px 75px;
   }
   .form-btn-close,
-  .form-btn-close-sign {
+.form-btn-close-sign {
     margin-left: 265px;
     font-size: 24px;
   }

@@ -11,37 +11,32 @@
   margin: auto;
 }
  
-.footer__nav--social {
+.footer__nav {
   display: flex;
   justify-content: center;
   margin: 20px 0 50px 0;
-  li {
-    list-style: none;
-  }
 }
  
-.footer__nav--social-facebook::before {
+.footer__media--icons {
+  list-style: none;
+  cursor: pointer;
+  margin-right: 16px;
+}
+
+.footer__nav--facebook::before {
   content: url(../images/icons/facebook-36px.png);
-  cursor: pointer;
-  margin-right: 16px;
 }
  
-.footer__nav--social-instagram::before {
+.footer__nav--instagram::before {
   content: url(../images/icons/instagram-36px.png);
-  cursor: pointer;
-  margin-right: 16px;
 }
  
-.footer__nav--social-youtube::before {
+.footer__nav--youtube::before {
   content: url(../images/icons/youtube-36px.png);
-  cursor: pointer;
-  margin-right: 16px;
 }
  
-.footer__nav--social-twitter::before {
+.footer__nav--twitter::before {
   content: url(../images/icons/twitter-36px.png);
-  cursor: pointer;
-  margin-right: 16px;
 }
  
 .form__newsletter {
@@ -104,12 +99,12 @@
   }
  
   .footer__rights {
-    max-width: 530px;
+    max-width: 460px;
   }
 }
  
 @media (min-width: 768px) {
-  .footer__nav--social {
+  .footer__nav {
     margin: 30px 0 40px 0;
   }
  
@@ -136,7 +131,7 @@
  
 @media (min-width: 1024px) {
   .footer {
-    max-width: 1024px;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -149,18 +144,18 @@
     height: 60px;
   }
 
-  .footer__nav--social-facebook::before {
+  .footer__nav--facebook::before {
     content: url(../images/icons/facebook.png);
   }
    
-  .footer__nav--social-instagram::before {
+  .footer__nav--instagram::before {
     content: url(../images/icons/instagram.png);
   }
-  .footer__nav--social-youtube::before {
+  .footer__nav--youtube::before {
     content: url(../images/icons/youtube.png);
   }
    
-  .footer__nav--social-twitter::before {
+  .footer__nav--twitter::before {
     content: url(../images/icons/twitter.png);
   }
  
@@ -180,6 +175,6 @@
   }
  
   .footer__rights {
-    max-width: 1024px;
+    max-width: 1400px;
   }
 }

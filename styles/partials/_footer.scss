@@ -38,6 +38,22 @@
 .footer__nav--twitter::before {
   content: url(../images/icons/twitter-36px.png);
 }
+
+.footer__nav--facebook:hover {
+  opacity: .6
+}
+ 
+.footer__nav--instagram:hover {
+  opacity: .6
+}
+
+.footer__nav--youtube:hover {
+  opacity: .6
+}
+ 
+.footer__nav--twitter:hover {
+  opacity: .6
+}
  
 .form__newsletter {
   width: 250px;
@@ -158,22 +174,6 @@
    
   .footer__nav--twitter::before {
     content: url(../images/icons/twitter.png);
-  }
-
-  .footer__nav--facebook::before {
-
-  }
-   
-  .footer__nav--instagram::after:hover {
-    box-shadow: 0px 8px 15px rgba(241, 234, 234, 0.1);
-  }
- 
-  .footer__nav--youtube::before {
-
-  }
-   
-  .footer__nav--twitter::before {
-
   }
  
   .form__newsletter {

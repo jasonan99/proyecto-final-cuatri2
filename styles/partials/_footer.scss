@@ -159,6 +159,22 @@
   .footer__nav--twitter::before {
     content: url(../images/icons/twitter.png);
   }
+
+  .footer__nav--facebook::before {
+
+  }
+   
+  .footer__nav--instagram::after:hover {
+    box-shadow: 0px 8px 15px rgba(241, 234, 234, 0.1);
+  }
+ 
+  .footer__nav--youtube::before {
+
+  }
+   
+  .footer__nav--twitter::before {
+
+  }
  
   .form__newsletter {
     height: 240px;

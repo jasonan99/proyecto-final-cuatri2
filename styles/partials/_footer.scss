@@ -11,32 +11,37 @@
   margin: auto;
 }
  
-.footer__nav {
+.footer__nav--social {
   display: flex;
   justify-content: center;
   margin: 20px 0 50px 0;
+  li {
+    list-style: none;
+  }
 }
  
-.footer__media--icons {
-  list-style: none;
+.footer__nav--social-facebook::before {
+  content: url(../images/icons/facebook-36px.png);
   cursor: pointer;
   margin-right: 16px;
 }
-
-.footer__nav--facebook::before {
-  content: url(../images/icons/facebook-36px.png);
-}
  
-.footer__nav--instagram::before {
+.footer__nav--social-instagram::before {
   content: url(../images/icons/instagram-36px.png);
+  cursor: pointer;
+  margin-right: 16px;
 }
  
-.footer__nav--youtube::before {
+.footer__nav--social-youtube::before {
   content: url(../images/icons/youtube-36px.png);
+  cursor: pointer;
+  margin-right: 16px;
 }
  
-.footer__nav--twitter::before {
+.footer__nav--social-twitter::before {
   content: url(../images/icons/twitter-36px.png);
+  cursor: pointer;
+  margin-right: 16px;
 }
  
 .form__newsletter {
@@ -99,12 +104,12 @@
   }
  
   .footer__rights {
-    max-width: 460px;
+    max-width: 530px;
   }
 }
  
 @media (min-width: 768px) {
-  .footer__nav {
+  .footer__nav--social {
     margin: 30px 0 40px 0;
   }
  
@@ -131,7 +136,7 @@
  
 @media (min-width: 1024px) {
   .footer {
-    max-width: 1000px;
+    max-width: 1024px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -144,18 +149,18 @@
     height: 60px;
   }
 
-  .footer__nav--facebook::before {
+  .footer__nav--social-facebook::before {
     content: url(../images/icons/facebook.png);
   }
    
-  .footer__nav--instagram::before {
+  .footer__nav--social-instagram::before {
     content: url(../images/icons/instagram.png);
   }
-  .footer__nav--youtube::before {
+  .footer__nav--social-youtube::before {
     content: url(../images/icons/youtube.png);
   }
    
-  .footer__nav--twitter::before {
+  .footer__nav--social-twitter::before {
     content: url(../images/icons/twitter.png);
   }
  
@@ -175,6 +180,6 @@
   }
  
   .footer__rights {
-    max-width: 1000px;
+    max-width: 1024px;
   }
 }

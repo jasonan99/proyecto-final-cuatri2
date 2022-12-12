@@ -4,8 +4,7 @@
   margin: 0 auto;
   max-width: 1900px;
 }
- 
-// -------- Filtros ----------
+
 .sidebar {
   background-color: colors.$black;
   height: 300px;
@@ -13,6 +12,7 @@
   border-radius: 10px;
   padding: 3px;
   margin-bottom: 50px;
+  text-align: center;
 }
  
 .sidebar__title {
@@ -21,15 +21,7 @@
   margin: 25px 0 15px 0;
   font-size: 24px;
 }
- 
-//esta es la que agarramos del header que esta haciendo flex
-//que gracias a esto pude centrarlo pero aqui realmente me parece 
-//no se esta usando porque en el ultimo media que si sale la flecha esta en display block
-.sidebar__search {
-    display: flex;
-    justify-content: center;
-}
- 
+
 .sidebar__filters {
   background-color: colors.$white;
   font-weight: bold;
@@ -48,20 +40,21 @@
  
 .sidebar__search--bar {
   height: 45px;
-  width: 345px;
+  width: 80%;
+  max-width: 300px;
   border-radius: 10px;
 }
  
-// .sidebar__search--img {
-//  content: "";
-//  background: url("../images/icons/search.svg") no-repeat;
-//  width: 35px;
-//  height: 35px;
-//  position: relative;
-//  right: -88%;
-//  top: -39px;
-//  margin-bottom: -25px;
-// }
+.sidebar__search--img {
+  content: "";
+  background: url(../images/icons/search.svg) no-repeat;
+  width: 35px;
+  height: 35px;
+  position: relative;
+  right: -75%;
+  top: -39px;
+  margin-bottom: -25px;
+}
 
 // ------ cards -------
  
@@ -76,23 +69,34 @@
  
 @media(min-width: 480px) {
   .sidebar__search--bar {
-    width: 450px;
+    width: 65%;
+    max-width: 450px;
   }
  
   .sidebar__filters {
     width: 300px;
   }
+
+  .sidebar__search--img {
+    right: -75%;
+  }
 }
+
 @media(min-width: 768px) {
   .sidebar__search--bar {
-    width: 500px;
+    width: 50%;
+    max-width: 475px;
   }
  
   .sidebar__filters {
     width: 300px;
   }
- 
+
+  .sidebar__search--img {
+    right: -70%;
+  }
 }
+
 @media(min-width: 1024px) {
   .categories__container {
     display: flex;
@@ -100,7 +104,7 @@
  
   .sidebar {
     height: 620px;
-    width: 30%;
+    width: 50%;
     border-radius: 10px;
     padding: 35px;
     margin-left: 12%;
@@ -115,28 +119,19 @@
     padding: 5px;
     margin-bottom: 20px;
     width: 100%;
+    max-width: 360px;
   }
-// ves aqui es donde cambie a block
-  .sidebar__search {
-    display:block;
-}
  
   .sidebar__search--bar {
     height: 50px;
     width: 100%;
+    max-width: 360px;
   }
  
   .sidebar__search--img {
-    content: "";
-    background: url("../images/icons/search.svg") no-repeat;
-    width: 35px;
-    height: 35px;
-    position: relative;
-    right: -88%;
-    top: -39px;
-    margin-bottom: -25px;
+    right: -79%;
   }
- 
+
   .card {
     margin: 0 0px 35px 65px;
   }

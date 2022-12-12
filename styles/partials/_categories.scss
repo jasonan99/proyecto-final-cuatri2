@@ -1,73 +1,143 @@
 @use './colors';
-
+ 
 .categories__container {
-  display: flex;
-	margin: 0 auto;
-	max-width: 1900px;
-	padding-left: 150px;
+  margin: 0 auto;
+  max-width: 1900px;
 }
-
+ 
 // -------- Filtros ----------
 .sidebar {
-	background-color: colors.$black;
-	height: 620px;
-	width: 30%;
-	border-radius: 10px;
-	padding: 35px;
+  background-color: colors.$black;
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 3px;
+  margin-bottom: 50px;
 }
-
+ 
 .sidebar__title {
-	color: colors.$white;
-	text-align: center;
-	margin: 80px 0;
-	font-size: 40px;
+  color: colors.$white;
+  text-align: center;
+  margin: 25px 0 15px 0;
+  font-size: 24px;
 }
-
+ 
+//esta es la que agarramos del header que esta haciendo flex
+//que gracias a esto pude centrarlo pero aqui realmente me parece 
+//no se esta usando porque en el ultimo media que si sale la flecha esta en display block
+.sidebar__search {
+    display: flex;
+    justify-content: center;
+}
+ 
 .sidebar__filters {
-	background-color: colors.$white;
-	font-weight: bold;
-	padding: 5px;
-	list-style: none;
-	margin-bottom: 20px;
-	text-align: center;
-	cursor: pointer;
-	border-radius: 10px;
+  background-color: colors.$white;
+  font-weight: bold;
+  padding: 3px;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 200px;
+  margin: 15px auto;
 }
-
+ 
 .sidebar__categories--buttons {
-	color: colors.$black;
+  color: colors.$black;
 }
-
+ 
 .sidebar__search--bar {
-	height: 45px;
-	width: 320px;
-	border-radius: 10px;
+  height: 45px;
+  width: 345px;
+  border-radius: 10px;
 }
-
-.sidebar__search--img {
-	content: "";
-	background: url("../images/icons/search.svg") no-repeat;
-	width: 35px;
-	height: 35px;
-	position: relative;
-	right: -88%;
-	top: -39px;
-	margin-bottom: -25px;
-}
-
-// .sidebar__input {
-// 	content: "";
-//     background: url(../images/icons/search.svg) no-repeat;
-//     width: 35px;
-//     height: 35px;
-//     position:relative;
-// 		left: 87%;
-// 		top: 40%;
+ 
+// .sidebar__search--img {
+//  content: "";
+//  background: url("../images/icons/search.svg") no-repeat;
+//  width: 35px;
+//  height: 35px;
+//  position: relative;
+//  right: -88%;
+//  top: -39px;
+//  margin-bottom: -25px;
 // }
 
 // ------ cards -------
-
+ 
 .card__container {
-	display: flex;
-	flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+}
+ 
+.card {
+  margin: 0 20px 35px 20px;
+}
+ 
+@media(min-width: 480px) {
+  .sidebar__search--bar {
+    width: 450px;
+  }
+ 
+  .sidebar__filters {
+    width: 300px;
+  }
+}
+@media(min-width: 768px) {
+  .sidebar__search--bar {
+    width: 500px;
+  }
+ 
+  .sidebar__filters {
+    width: 300px;
+  }
+ 
+}
+@media(min-width: 1024px) {
+  .categories__container {
+    display: flex;
+  }
+ 
+  .sidebar {
+    height: 620px;
+    width: 30%;
+    border-radius: 10px;
+    padding: 35px;
+    margin-left: 12%;
+  }
+ 
+  .sidebar__title {
+    margin: 80px 0;
+    font-size: 40px;
+  }
+ 
+  .sidebar__filters {
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+// ves aqui es donde cambie a block
+  .sidebar__search {
+    display:block;
+}
+ 
+  .sidebar__search--bar {
+    height: 50px;
+    width: 100%;
+  }
+ 
+  .sidebar__search--img {
+    content: "";
+    background: url("../images/icons/search.svg") no-repeat;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    right: -88%;
+    top: -39px;
+    margin-bottom: -25px;
+  }
+ 
+  .card {
+    margin: 0 0px 35px 65px;
+  }
 }

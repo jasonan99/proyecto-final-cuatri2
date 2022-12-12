@@ -22,7 +22,7 @@
   cursor: pointer;
   margin-right: 16px;
 }
-
+ 
 .footer__nav--facebook::before {
   content: url(../images/icons/facebook-36px.png);
 }
@@ -117,7 +117,6 @@
     font-size: 25px;
   }
  
-   
   #form__newsletter--email {
     padding: 16px;
     border-width: 4px;
@@ -144,7 +143,7 @@
     width: 300px;
     height: 60px;
   }
-
+ 
   .footer__nav--facebook::before {
     content: url(../images/icons/facebook.png);
   }
@@ -152,6 +151,7 @@
   .footer__nav--instagram::before {
     content: url(../images/icons/instagram.png);
   }
+ 
   .footer__nav--youtube::before {
     content: url(../images/icons/youtube.png);
   }
@@ -177,5 +177,6 @@
  
   .footer__rights {
     max-width: 1600px;
+    padding: 0 20px;
   }
 }

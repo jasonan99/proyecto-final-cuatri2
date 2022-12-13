@@ -52,6 +52,7 @@
   right: -75%;
   top: -39px;
   margin-bottom: -25px;
+  cursor: pointer;
 }
 
 .card__container {
@@ -980,6 +981,7 @@ textarea {
   position: relative;
   right: 11%;
   top: 22px;
+  cursor: pointer;
 }
 
 .header__nav {
@@ -1086,6 +1088,7 @@ textarea {
     top: -34px;
     right: -77%;
     margin-left: 15px;
+    cursor: pointer;
   }
 }
 @media (min-width: 1024px) {
@@ -1413,12 +1416,12 @@ textarea {
 
 .view__price--utility p {
   font-size: 25px;
-  color: #F2EFEB;
+  color: white;
 }
 
 .view__price--utility a {
   font-size: 25px;
-  color: #F2EFEB;
+  color: white;
 }
 
 .view__button {
@@ -1430,6 +1433,12 @@ textarea {
   border-radius: 10px;
   justify-content: space-around;
   margin-left: 22px;
+}
+
+.view__anchor:hover {
+  background-color: white;
+  color: #2B2929;
+  border: solid 1px #2B2929;
 }
 
 @media screen and (max-width: 820px) {
